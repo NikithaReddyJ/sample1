@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    {% load static%}
+    <link rel="stylesheet" href="{% static 'app1/table1style.css' %}" type="text/css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="C:\Users\ni20090110\Desktop\Nikitha Front End\css\table1style.css">
+</head>
+<body>
+
+<form class="w3-container">
+
+  <p>
+  <input class="w3-check" type="checkbox" checked="checked">
+  <label>Sign contract for "what are conference organizers afraid of?"<span class="close">&times;</span></label></p>
+  <hr><p>
+  <input class="w3-check" type="checkbox">
+  <label>Lines From Great Russian Literature? Or E-mails&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; <span class="close">&times;</span></label></p>
+  <hr><p>
+  <input class="w3-check" type="checkbox">
+  <label>Flooded:One year later, assessing what was lost and what was found when a ravaging rain swept through metro Detroit&emsp;&emsp;&emsp;&emsp;<span class="close">&times;</span></label></p>
+  <hr><p>
+  <input class="w3-check" type="checkbox">
+  <label> Create 4 Invisible User Experiences you Never Knew About&nbsp;&nbsp;<span class="close">&times;</span></label></p>
+  <hr></form>
+<script>
+var closebtns = document.getElementsByClassName("close");
+var i;
+for (i = 0; i < closebtns.length; i++) {
+  closebtns[i].addEventListener("click", function() {
+    this.parentElement.style.display = 'none';
+  });
+}
+</script>
+</body>
+</html>
